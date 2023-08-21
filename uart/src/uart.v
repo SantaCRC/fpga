@@ -88,18 +88,23 @@ localparam MEMORY_LENGTH = 12;
 reg [7:0] testMemory [MEMORY_LENGTH-1:0];
 
 initial begin
-    testMemory[0] = "L";
-    testMemory[1] = "u";
-    testMemory[2] = "s";
-    testMemory[3] = "h";
+    testMemory[0] = "F";
+    testMemory[1] = "a";
+    testMemory[2] = "b";
+    testMemory[3] = "i";
     testMemory[4] = "a";
-    testMemory[5] = "y";
-    testMemory[6] = " ";
-    testMemory[7] = "L";
-    testMemory[8] = "a";
-    testMemory[9] = "b";
-    testMemory[10] = "s";
-    testMemory[11] = " ";
+    testMemory[5] = "n";
+    testMemory[6] = "a";
+    testMemory[7] = "l";
+    testMemory[8] = "v";
+    testMemory[9] = "a";
+    testMemory[10] = "r";
+    testMemory[11] = "e";
+    testMemory[12] = "z";
+    testMemory[13] = ".";
+    testMemory[14] = "d";
+    testMemory[15] = "e";
+    testMemory[16] = "v";
 end
 
 localparam TX_STATE_IDLE = 0;
