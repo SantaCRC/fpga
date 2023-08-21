@@ -1,0 +1,14 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\alvar\Documents\fpga\uart\src\uart.v'
+ERROR (EX3094) : Net type must be explicitly specified for 'clk' when default_nettype is none("C:\Users\alvar\Documents\fpga\uart\src\uart.v":8)
+ERROR (EX3675) : Non-net port 'clk' cannot be of mode input("C:\Users\alvar\Documents\fpga\uart\src\uart.v":8)
+ERROR (EX3094) : Net type must be explicitly specified for 'uart_rx' when default_nettype is none("C:\Users\alvar\Documents\fpga\uart\src\uart.v":9)
+ERROR (EX3675) : Non-net port 'uart_rx' cannot be of mode input("C:\Users\alvar\Documents\fpga\uart\src\uart.v":9)
+ERROR (EX3094) : Net type must be explicitly specified for 'uart_tx' when default_nettype is none("C:\Users\alvar\Documents\fpga\uart\src\uart.v":10)
+ERROR (EX3094) : Net type must be explicitly specified for 'btn1' when default_nettype is none("C:\Users\alvar\Documents\fpga\uart\src\uart.v":12)
+ERROR (EX3675) : Non-net port 'btn1' cannot be of mode input("C:\Users\alvar\Documents\fpga\uart\src\uart.v":12)
+ERROR (EX3805) : Concurrent assignment to a non-net 'uart_tx' is not permitted("C:\Users\alvar\Documents\fpga\uart\src\uart.v":85)
+ERROR (EX3928) : Module 'uart' is ignored due to previous errors("C:\Users\alvar\Documents\fpga\uart\src\uart.v":168)
+Verilog file 'C:\Users\alvar\Documents\fpga\uart\src\uart.v' ignored due to errors
+GowinSynthesis finish
